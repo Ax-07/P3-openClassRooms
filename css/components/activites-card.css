@@ -1,0 +1,33 @@
+
+.card--activites {
+  align-self: stretch;
+}
+.card--activites:hover {
+  background-color: burlywood;
+}
+.card__container--activites {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.card__img--activites {
+  height: 380px;
+  width: 100%;
+  flex-shrink: 1;
+  align-self: stretch;
+  border-radius: 20px 20px 0 0;
+}
+.card__content--activites {
+  padding: 20px 19px;
+  align-self: stretch;
+}
+@media (max-width: 1024px) {
+  .card__img--activites {
+    height: 200px;
+  }
+}
+@media (max-width: 767px) {
+  .card__img--activites {
+    height: 141px;
+  }
+}

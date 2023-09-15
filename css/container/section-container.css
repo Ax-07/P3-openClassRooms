@@ -1,0 +1,29 @@
+/* section global */
+.section__containers {
+  display: flex;
+  flex-direction: column;
+}
+.section__containers--info {
+  align-items: flex-start; /* peut etre enlever */
+  align-self: stretch; /* peut etre enlever */
+  gap: 35px;
+}
+.section__containers--offers {
+  flex-direction: row;
+  gap: 40px;
+}
+.section__containers--activity {
+  gap: 30px;
+}
+
+/*section offers */
+.offers__container--main {
+  flex: 1 0 0;
+  align-self: stretch;
+  align-items: stretch;
+}
+.offers__container--sponsored {
+  max-width: 429px;
+  align-self: stretch;
+  flex: 0.5;
+}

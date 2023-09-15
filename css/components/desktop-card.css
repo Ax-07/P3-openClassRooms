@@ -1,0 +1,26 @@
+/* card desktop */
+.card--desktop:hover {
+  background-color: burlywood;
+}
+.card__container--desktop {
+  height: 146px;
+}
+.card__img--desktop {
+  border-bottom: 5px solid var(--White, #fff);
+  border-left: 5px solid var(--White, #fff);
+  border-radius: 20px 0 0 20px;
+  border-top: 5px solid var(--White, #fff);
+  width: calc(100%/3);
+}
+.card__content--desktop {
+flex: 2 1 0;
+  padding: 10px 5px 5px 15px;
+}
+.card__description {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+  gap: 5px;
+}

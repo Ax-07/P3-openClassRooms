@@ -1,0 +1,68 @@
+/******* font-family *******/
+* {
+  font-family: "Raleway";
+}
+/**** font style ******/
+/* Title/Section ***/
+/* fs-22-bold *****/
+h1, .section__title {
+  font-size: 22px;
+  font-weight: 700;
+}
+/* Title/Filter, Search-bar/Input */
+/* fs-18-bold */
+h2, .filter__title, .input__text {
+  font-size: 18px;
+  font-weight: 700;
+}
+/* btn/Filter */
+/* fs-17-bold */
+h3, .filter__btn {
+  font-size: 17px;
+  font-weight: 700;
+}
+/* Card/Title **/
+/* fs-16-bold */
+h4, .card__title {
+  font-size: 16px;
+  font-weight: 700;
+}
+/* Card/Text */
+/* fs-14-regular */
+.card__text {
+  font-size: 14px;
+  font-weight: 400;
+  min-height: 16px;
+}
+/* Information */
+/* fs-16-regular */
+.info__text {
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Nav/Standard */
+/* fs-16-regular */
+.fs-16-regular {
+  font-size: 16px;
+  font-weight: 400;
+  height: 19px;
+}
+/* Title/Filter, Search-bar/Input */
+/* fs-18-bold */
+.input-text {
+  font-size: 18px;
+  font-weight: 700;
+  height: 21px;
+}
+.footer__link {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+  .filter__btn {
+    font-size: 14px;
+  }
+}

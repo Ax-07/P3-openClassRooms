@@ -1,0 +1,21 @@
+@import "./fonts/custom-fonts.css";
+@import "./global/global.css";
+@import "./icons/fa-style.css";
+
+@import "./layout/header.css";
+@import "./layout/main.css";
+@import "./layout/footer.css";
+
+@import "./container/infoGroup.css";
+@import "./container/section-groupe.css";
+@import "./container/cards-container.css";
+
+@import "./components/cards.css";
+@import "./components/main-card.css";
+@import "./components/desktop-card.css";
+@import "./components/activites-card.css";
+
+@import "./components/info/headLine.css";
+@import "./components/info/searchBar.css";
+@import "./components/info/filterBar.css";
+@import "./components/info/infoBar.css";

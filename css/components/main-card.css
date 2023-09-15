@@ -1,0 +1,19 @@
+.card--main {
+  padding-bottom: 15px;
+}
+.card--main:hover {
+  background-color: burlywood;
+}
+.card__container--main {
+  flex-direction: column;
+  gap: 4px;
+}
+.card__img--main {
+  height: 124px;
+  border-radius: 20px 20px 0 0;
+  border: 5px solid var(--White, #fff);
+}
+.card__content--main {
+  padding: 0px 15px;
+  gap: 8px;
+}
