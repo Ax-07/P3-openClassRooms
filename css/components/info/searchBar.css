@@ -33,9 +33,9 @@
   dans chrome (input[type="search"]::-webkit-search-cancel-button { display: none;})
   et enlever la bordure gauche du boutton rechercher pour qu'on puisse voir le texte correctement
   */
-  margin-left: 24px;
+  padding-left: 24px;
+  align-self: stretch;
   border: none;
-  padding: 0;
   color: var(--Black, #000);
   text-align: left;
 }
