@@ -17,7 +17,7 @@ h2, .filter__title, .input__text {
 }
 /* btn/Filter */
 /* fs-17-bold */
-h3, .filter__btn {
+h3, .filterBtn__text {
   font-size: 17px;
   font-weight: 700;
 }

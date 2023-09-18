@@ -6,14 +6,13 @@
 @import "./layout/main.css";
 @import "./layout/footer.css";
 
-@import "./container/infoGroup.css";
-@import "./container/section-groupe.css";
+@import "./container/section-container.css";
 @import "./container/cards-container.css";
 
-@import "./components/cards.css";
-@import "./components/main-card.css";
-@import "./components/desktop-card.css";
-@import "./components/activites-card.css";
+@import "./components/cards/cards.css";
+@import "./components/cards/main-card.css";
+@import "./components/cards/desktop-card.css";
+@import "./components/cards/activites-card.css";
 
 @import "./components/info/headLine.css";
 @import "./components/info/searchBar.css";

@@ -10,34 +10,18 @@
   border-bottom: 1px solid var(--main-bg-color);
   background: white;
 }
-.fa-style {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 50px;
-  height: 49px;
-  border-radius: 15px 0 0 15px;
-  border: 1px solid var(--main-bg-color);
-  background-color: var(--main-bg-color);
+@-moz-document url-prefix() {
+  .search-form__input {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
 }
 .search-form__input {
-  flex: 1;
-  align-self: stretch;
-  align-items: center;
-  display: flex;
-}
-.search-form__input__text {
   width: 100%;
-  /*margin-left: 24px à la place de gap: 24px 
-  si on veut laisser le gap 24px, il supprimer la croix pour effacer le texte
-  dans chrome (input[type="search"]::-webkit-search-cancel-button { display: none;})
-  et enlever la bordure gauche du boutton rechercher pour qu'on puisse voir le texte correctement
-  */
   padding-left: 24px;
   align-self: stretch;
   border: none;
   color: var(--Black, #000);
-  text-align: left;
 }
 .search-form__btn {
   display: flex;
@@ -53,10 +37,7 @@
   color: #fff;
   cursor: pointer;
 }
-.fa-search {
-  font-size: 17px;
-  color: #fff;
-}
+
 .search-form__btn--icon {
   display: none;
 }

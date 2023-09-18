@@ -8,24 +8,13 @@
 /* color settings */
 :root {
   --main-color: #0065fc;
-  --main-bg-color: #f2f2f2;
   --filter-bg-color: #deebff;
+  --main-bg-color: #f2f2f2;
   --other-color: #d9d9d9;
-
-  --break-point-mobile: 767px;
 }
 
 /* utility classes */
 .no-link-style {
   color: inherit;
   text-decoration: none;
-}
-.fa-solid {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--main-color)
-}
-.fa-location-dot {
-  color: initial;
 }

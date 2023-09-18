@@ -9,7 +9,7 @@
 }
 .card__img {
   object-fit: cover;
-  width: 100%; /* si c'est pas mis les image ne retrecisse plus */
+  width: 100%;
 }
 .card__content {
   display: flex;
@@ -22,10 +22,4 @@
   align-items: center;
   width: fit-content;
   height: 13.25px;
-}
-.fa-star {
-  color: var(--main-color);
-}
-.neutral-star {
-  color: var(--main-bg-color);
 }

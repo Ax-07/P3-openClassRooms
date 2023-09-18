@@ -17,9 +17,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" >
 
   <link rel="stylesheet" href="css/index.css" >
-
 </head>
-
 <body>
   <header class="header">
     <div class="header__logo">
@@ -27,67 +25,60 @@
     </div>
     <nav class="header__nav">
       <ul class="header__nav__list">
-        <li class="header__nav__list__item">
-          <!-- ici je mettrai bien la class .active qui modifie border-top et bottom en fonction de l'affichage -->
-          <a href="#offers-section"
-            class="header__nav__list__item__link fs-16-regular no-link-style">Hébergements</a>
+        <li class="header__nav__list__item header__nav__list__item--hebergement">
+          <a href="#offers" class="header__nav__list__item__link fs-16-regular no-link-style">Hébergements</a>
           <span class="header__nav__list__item_link--active"></span>
         </li>
-        <li class="header__nav__list__item">
-          <a href="#section-activites" class="header__nav__list__item__link fs-16-regular no-link-style">Activités</a>
+        <li class="header__nav__list__item header__nav__list__item--activity">
+          <a href="#activity" class="header__nav__list__item__link fs-16-regular no-link-style">Activités</a>
         </li>
       </ul>
     </nav>
   </header>
   <main>
-    <section id="info-group" class="info-group">
-      <div class="info-group__header">
-        <h1 class="info-group__header__title section__title">Trouvez votre hébergement pour des vacances de rêve
-        </h1>
-        <p class="info-group__header__text footer__link">En plein centre-ville ou en pleine nature</p>
+    <section id="info" class="section section--info">
+      <div class="info__header">
+        <p class="info__title section__title">Trouvez votre hébergement pour des vacances de rêve
+        </p>
+        <p class="info__text footer__link">En plein centre-ville ou en pleine nature</p>
       </div>
       <form id="search-location" action="#" method="GET" class="search-form">
-        <span class="fa-solid fa-location-dot fa-style" aria-hidden="true"></span>
-        <div class="search-form__input">
-          <input type="search" name="location" value="Marseille, France" 
-          class="search-form__input__text input__text" size="12" required >
-        </div>
-        <button type="submit" form="search-location" class="search-form__btn" value="Rechercher">
+        <span class="fa-solid fa-location-dot" aria-hidden="true"></span>
+        <input type="search" name="location" value="Marseille, France" class="search-form__input input__text" required >
+        <button type="submit" form="search-location" class="search-form__btn">
           <span class="search-form__btn--icon fa-solid fa-search" aria-hidden="true"></span>
           <span class="search-form__btn--text input__text">Rechercher</span>
         </button>
       </form>
-      <article class="filter">
+      <div class="filter">
         <h2 class="filter__title input__text">Filtres</h2>
         <ul class="filter__list">
-          <li class="filter__list__item">
-            <span class="filter__list__item__icon fa-solid fa-money-bill-wave"></span>
-            <p class="filter__btn">Économique</p>
+          <li class="filterList__btn">
+            <span class="filterBtn__icon fa-solid fa-money-bill-wave"></span>
+            <p class="filterBtn__text">Économique</p>
           </li>
-          <li class="filter__list__item">
-            <span class="filter__list__item__icon fa-solid fa-person"></span>
-            <p class="filter__btn">Familial</p>
+          <li class="filterList__btn">
+            <span class="filterBtn__icon fa-solid fa-person"></span>
+            <p class="filterBtn__text">Familial</p>
           </li>
-          <li class="filter__list__item">
-            <span class="filter__list__item__icon fa-solid fa-heart"></span>
-            <p class="filter__btn">Romantique</p>
+          <li class="filterList__btn">
+            <span class="filterBtn__icon fa-solid fa-heart"></span>
+            <p class="filterBtn__text">Romantique</p>
           </li>
-          <li class="filter__list__item">
-            <span class="filter__list__item__icon fa-solid fa-fire"></span>
-            <p class="filter__btn">Nos pépites</p>
+          <li class="filterList__btn">
+            <span class="filterBtn__icon fa-solid fa-fire"></span>
+            <p class="filterBtn__text">Nos pépites</p>
           </li>
         </ul>
-      </article>
-      <div class="info">
+      </div>
+      <div class="info__footer">
         <span class="fa-solid fa-info fa-xs"></span>
         <p class="info__text">Plus de 500 logements sont disponibles dans cette ville</p>
       </div>
     </section>
-    <section id="offers-section" class="offers-section">
-      <div id="grid-2x3-card__img-top" class="offers-section__container offers__container--main">
-        <div class="offers-title__container">
-          <h2 class="section__title">Hébergements à Marseille</h2>
-        </div>
+    <section id="offers" class="section section--offers">
+      <div id="offers-main" class="offers offers--main">
+        <h2 class="section__title">Hébergements à Marseille</h2>
         <div class="cards__container cards__container--offers-main">
           <article class="card card--main">
             <a id="offers-main-1" href="#" title="Hôtel du port" class="card__container card__container--main no-link-style">
@@ -194,8 +185,8 @@
         </div>
         <a href="#" class="input-text no-link-style">Afficher plus</a>
       </div>
-      <div id="row-3-card__img-left" class="offers-section__container offers__container--sponsored">
-        <div class="offers-title__container">
+      <div id="offers-sponsored" class="offers offers--sponsored">
+        <div class="section__title-wrapper">
           <h1 class="section__title">Les plus populaires</h1>
           <span class="fa-solid fa-chart-line" aria-hidden="true"></span>
         </div>
@@ -259,48 +250,45 @@
           </article>
         </div>
       </div>
+
     </section>
-    <section id="section-activites">
-      <div id="row-3-card__img-top" class="offers-section__container offers-section__container--activites">
-        <div class="offers-title__container">
-          <h2 class="section__title">Activités à Marseille</h2>
-        </div>
+    <section id="activity" class="section section--activity">
+        <h2 class="section__title">Activités à Marseille</h2>
         <div class="cards__container cards__container--activites">
-          <a id="activites-1" href="#" title="Vieux port" class="card no-link-style card--activites">
-            <article class="card__container card__container--activites">
+          <article class="card card--activites">
+              <a id="activites-1" href="#" title="Vieux port" class="card__container card__container--activites no-link-style">
               <img src="./images/activites/reno-laithienne.jpg" alt="Image du port montrant des bateaux" class="card__img card__img--activites" />
               <div class="card__content card__content--activites">
                 <h4 class="card__title">Vieux port</h4>
               </div>
+            </a>
             </article>
-          </a>
-          <a id="activites-2" href="#" title="Fort de Pomègues" class="card no-link-style card--activites">
-            <article class="card__container card__container--activites">
+            <article class="card card--activites">
+              <a id="activites-2" href="#" title="Fort de Pomègues" class="card__container card__container--activites no-link-style">
               <img src="./images/activites/paul-hermann.jpg" alt="Image du fort de Pomègues" class="card__img card__img--activites" />
               <div class="card__content card__content--activites">
                 <h4 class="card__title">Fort de Pomègues</h4>
               </div>
+            </a>
             </article>
-          </a>
-          <a id="activites-3" href="#" title="Parc national des Calanques" class="card no-link-style card--activites">
-            <article class="card__container card__container--activites">
+            <article class="card card--activites">
+              <a id="activites-3" href="#" title="Parc national des Calanques" class="card__container card__container--activites no-link-style">
               <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image du parc national des Calanques" class="card__img card__img--activites" />
               <div class="card__content card__content--activites">
                 <h4 class="card__title">Parc national des Calanques</h4>
               </div>
+            </a>
             </article>
-          </a>
-          <a id="activites-4" href="#" title="Notre-Dame-de-la-Garde" class="card no-link-style card--activites">
-            <article class="card__container card__container--activites">
+            <article class=" card card--activites ">
+              <a id="activites-4" href="#" title="Notre-Dame-de-la-Garde" class="card__container card__container--activites no-link-style">
               <img src="./images/activites/florian-wehde.jpg" alt="Image de Notre-Dame-de-la-Garde"
                 class="card__img card__img--activites" />
               <div class="card__content card__content--activites">
                 <h4 class="card__title">Notre-Dame-de-la-Garde</h4>
               </div>
+            </a>
             </article>
-          </a>
         </div>
-      </div>
     </section>
   </main>
   <footer class="footer">
