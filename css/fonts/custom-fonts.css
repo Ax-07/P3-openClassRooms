@@ -62,7 +62,7 @@ h4, .card__title {
 @media (max-width: 1024px) {
 }
 @media (max-width: 768px) {
-  .filter__btn {
+  .filterBtn__text {
     font-size: 14px;
   }
 }
