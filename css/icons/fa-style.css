@@ -26,23 +26,16 @@
 }
 /*icon info */
 .fa-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  min-width: 24px;
+  min-height: 24px;
 
-  font-size: 11px;
-  width: 24px;
-  height: 24px;
-  line-height: 24px;
-
-  color: var(--main-color);
   border: 1px solid var(--other-color);
   border-radius: 50%;
 }
 
 /* icons star*/
 .fa-star {
-  color: var(--main-color);
+  color: var(--main-color);/* peut etre supprimer */
 }
 .neutral-star {
   color: var(--main-bg-color);

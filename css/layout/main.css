@@ -1,4 +1,4 @@
-body {
+.body {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -7,7 +7,7 @@ body {
   min-width: 320px;
   width: 100%;
 }
-main {
+.main {
   display: flex;
   flex-direction: column;
   gap: 35px;
@@ -16,19 +16,19 @@ main {
 }
 
 @media (min-width: 1441px) {
-  body {
+  .body {
     margin: 0 auto;
   }
 }
 @media (max-width: 1440px) {
-  main {
+  .main {
     padding: 0 50px;
   }
 }
 @media (max-width: 1024px) {
 }
 @media (max-width: 767px) {
-  main {
+  .main {
     padding: 0;
   }
 }

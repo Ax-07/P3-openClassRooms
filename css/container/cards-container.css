@@ -5,19 +5,11 @@
 }
 .cards__container--offers-main {
   display: grid;
-  align-self: stretch;
-  align-items: stretch;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
-.cards__container--offers-sponsored {
-  align-self: stretch;
-}
 .cards__container--activites {
   flex-direction: row;
-  align-items: flex-start;
-  gap: 30px;
-  align-self: stretch;
 }
 
 @media (max-width: 1024px) {
@@ -27,18 +19,11 @@
   }
 }
 @media (max-width: 767px) {
-  .cards__container--offers-sponsored {
+  .cards__container {
     flex-direction: column;
     gap: 15px;
   }
   .cards__container--offers-main {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  .cards__container--activites {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 15px;
   }
 }

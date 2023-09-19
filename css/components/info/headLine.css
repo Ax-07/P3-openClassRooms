@@ -5,9 +5,3 @@
     align-items: flex-start;
     gap: 8px;
 }
-.info__title {
-    font-size: 22px;
-}
-.info__text {
-    font-size: 16px;
-}

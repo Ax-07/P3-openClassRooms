@@ -5,13 +5,13 @@
 /**** font style ******/
 /* Title/Section ***/
 /* fs-22-bold *****/
-h1, .section__title {
+h1, .section__title, .info__title {
   font-size: 22px;
   font-weight: 700;
 }
 /* Title/Filter, Search-bar/Input */
 /* fs-18-bold */
-h2, .filter__title, .input__text {
+h2, .filter__title, .input__text, .search-form__btn--text {
   font-size: 18px;
   font-weight: 700;
 }
@@ -32,11 +32,16 @@ h4, .card__title {
 .card__text {
   font-size: 14px;
   font-weight: 400;
-  min-height: 16px;
+}
+/* icon € */
+/*fs-14-semi-bold */
+.icon__text {
+  font-size: 14px;
+  font-weight: 600;
 }
 /* Information */
 /* fs-16-regular */
-.info__text {
+.info__text, .footer__link {
   font-size: 16px;
   font-weight: 400;
 }
@@ -45,23 +50,20 @@ h4, .card__title {
 .fs-16-regular {
   font-size: 16px;
   font-weight: 400;
-  height: 19px;
 }
 /* Title/Filter, Search-bar/Input */
 /* fs-18-bold */
 .input-text {
   font-size: 18px;
   font-weight: 700;
-  height: 21px;
-}
-.footer__link {
-  font-size: 16px;
-  font-weight: 400;
 }
 
 @media (max-width: 1024px) {
+  .filterBtn__text {
+    font-size: 16px;
+  }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .filterBtn__text {
     font-size: 14px;
   }

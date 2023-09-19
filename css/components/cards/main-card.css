@@ -1,9 +1,6 @@
 .card--main {
   padding-bottom: 15px;
 }
-.card--main:hover {
-  background-color: burlywood;
-}
 .card__container--main {
   flex-direction: column;
   gap: 4px;

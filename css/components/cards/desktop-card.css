@@ -1,7 +1,4 @@
 /* card desktop */
-.card--desktop:hover {
-  background-color: burlywood;
-}
 .card__container--desktop {
   height: 146px;
 }
@@ -13,14 +10,11 @@
   width: calc(100%/3);
 }
 .card__content--desktop {
-flex: 2 1 0;
+flex: 1 0 0;
   padding: 10px 5px 5px 15px;
 }
 .card__description {
-  align-items: flex-start;
-  align-self: stretch;
   display: flex;
   flex-direction: column;
-  flex: 1 0 0;
   gap: 5px;
 }

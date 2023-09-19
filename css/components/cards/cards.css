@@ -20,6 +20,5 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: fit-content;
   height: 13.25px;
 }
