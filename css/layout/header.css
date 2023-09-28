@@ -6,9 +6,7 @@
 /********** Logo ***********/
 .header__logo {
   display: flex;
-  padding: 30px 50px;
-}
-.header__logo--img {
+  margin: 30px 50px;
   width: 61.09px;
   height: 19px;
 }
@@ -67,7 +65,7 @@
     align-items: center;
   }
   .header__logo {
-    padding: 30px;
+    margin: 30px;
   }
   .header__nav {
     padding: 0;
