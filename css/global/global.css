@@ -13,6 +13,20 @@
   --other-color: #d9d9d9;
 }
 
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  max-width: 1440px;
+  min-width: 320px;
+  width: 100%;
+}
+@media (min-width: 1441px) {
+  .body {
+    margin: 0 auto;
+  }
+}
 /* utility classes */
 .no-link-style {
   color: inherit;

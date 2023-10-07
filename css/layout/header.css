@@ -14,7 +14,6 @@
 .header__nav {
   display: flex;
   padding: 0px 25px;
-  flex-direction: column;
 }
 .nav__list {
   display: flex;
@@ -70,6 +69,8 @@
   .header__nav {
     padding: 0;
     align-self: stretch;
+  flex-direction: column;
+
   }
   .nav__list {
     gap: 0;

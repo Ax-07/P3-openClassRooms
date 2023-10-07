@@ -1,12 +1,4 @@
-.body {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  justify-content: center;
-  max-width: 1440px;
-  min-width: 320px;
-  width: 100%;
-}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -15,11 +7,6 @@
   width: 100%;
 }
 
-@media (min-width: 1441px) {
-  .body {
-    margin: 0 auto;
-  }
-}
 @media (max-width: 1440px) {
   .main {
     padding: 0 50px;
