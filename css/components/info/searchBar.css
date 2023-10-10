@@ -10,19 +10,21 @@
   border-bottom: 1px solid var(--main-bg-color);
   background: white;
 }
-@-moz-document url-prefix() {
-  .search-form__input {
-    margin-top: 1px;
-    margin-bottom: 1px;
-  }
-}
+
 .search-form__input {
   width: 100%;
+  margin-top: 1px;
+  margin-bottom: 1px;
   padding-left: 24px;
   align-self: stretch;
   border: none;
   color: var(--Black, #000);
 }
+
+.search-form__input:focus {
+  outline:solid var(--main-color) 2px;
+}
+
 .search-form__btn {
   display: flex;
   height: 49px;
